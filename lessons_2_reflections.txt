@@ -41,3 +41,17 @@ structure?
 They enable me to see which  commits are reachable and which 
 are not. They also help me to see what is happening when I 
 create and commit to a branch.
+
+
+#6 What is the result of merging two branches together? Why 
+do we represent it in the diagram the way we do?
+
+Merging two branches together takes all of the code changes 
+in one branch, compares it to the branch to be merged into, 
+and merges the changes. All of the commits made to the 
+merged branch are added to the branch into which it was 
+merged.
+
+We represent it in the diagram to show which commits are 
+reachable from each branch and to see where they originally 
+diverged.
