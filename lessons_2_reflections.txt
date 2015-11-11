@@ -55,3 +55,15 @@ merged.
 We represent it in the diagram to show which commits are 
 reachable from each branch and to see where they originally 
 diverged.
+
+#6 What are the pros and cons of Git's automatic merging versus always doing merges manually?
+
+Pros
+
+ - you do not have to manually scan lord knows how many lines of code looking for edits
+
+ - all previous  changes are automatically added to the branch
+
+Cons
+
+ - sometimes a conflict may occur that is not caught by git
