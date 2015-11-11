@@ -19,3 +19,7 @@ You use fork when you want to copy another GitHub user's repo without having to 
 You use clone when you want to create a local  copy of a remote repository. This could be a copy of a repo you created yourself on GitHub or it could be a copy of a repo located somewhere else on your local machine.
 
 You use branches when you want to work on an issue separately from other branches in the same repository.
+
+#4 What is the benefit of having a copy of the last known state of the remote stored locally?
+
+If changes are made to the same file by you locally and by someone else who pushes those changes to the remote, you can examine the differences before changing your local copy of the remote repo.
