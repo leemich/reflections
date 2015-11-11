@@ -17,3 +17,27 @@ directory or the repository is changed.
 I think it's valuable because it gives you a chance to change 
 your mind before actually committing,  in case youo decide to 
 change something else.
+
+#3 How can you use the staging area to make sure you have 
+one commit per logical change?
+
+I can use diff to see what changes are in the staging area 
+and double check to make sure that I am only committing what 
+makes logical sense to commit. I can safely remove changes 
+in the staging area that I am not ready to commit.
+
+#4 What  are some situations when branches would be helpful 
+in keeping your history organized? How would branches help?
+
+Branches would be helpful when experimenting with code and 
+trying something new. Branches would help by making sure 
+there is always a clean, working master branch that is 
+unaffected by the commits made to other branches until and 
+unless they are merged.
+
+#5 How do the diagrams help you visualize the branch 
+structure?
+
+They enable me to see which  commits are reachable and which 
+are not. They also help me to see what is happening when I 
+create and commit to a branch.
